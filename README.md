@@ -17,7 +17,7 @@ URLCheck accepts line-delimited URLs in a text file. This script will show you i
 >
 > Enter path of the input file:
 >
-> ▶ /home/ASUS/Bug Bounty/domains.txt
+> ▶ /home/Users/Bug Bounty/domains.txt
 >
 > Success: https://example.com
 >
