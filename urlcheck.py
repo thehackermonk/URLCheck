@@ -7,13 +7,11 @@ def open_file(file_name):
         mylist = list(f)
         return mylist
 
-
 ## function to append to file
 
 def write_file(text):
     with open('output.txt', "a") as myfile:
         myfile.write(text+"\n")
-
 
 ## function to check url and return status
 
@@ -27,10 +25,10 @@ def check_url(url):
         print('Error: '+url)
 
 
-## path of input file
-input = '/home/thehackermonk/Bug Bounty/bitdefender/domains.txt'
+# get path of input file
+input_path = input('Enter path of the input file:\n')
 
-for url in open_file(input):
+for url in open_file(input_path):
     # strip the url for unwanted characters
     url = url.strip()
 
