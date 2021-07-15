@@ -11,7 +11,7 @@ URLCheck accepts a single URL or multiple URLs (line-delimited in a text file). 
 > python urlcheck.py -u `<domain>` -p http -o
 
 ### Usage example
-> ▶ python urlcheck.py -u examplecom -p http
+> ▶ python urlcheck.py -u example.com -p http
 >Success:  http://example.com
 
 > ▶ python urlcheck.py -l '/home/thehackermonk/domains.txt' --fullcheck
