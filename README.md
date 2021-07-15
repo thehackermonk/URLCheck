@@ -15,11 +15,17 @@ URLCheck accepts a single URL or multiple URLs (line-delimited in a text file). 
 >Success:  http://example.com
 
 > ▶ python urlcheck.py -l '/home/thehackermonk/domains.txt' --fullcheck
+> 
 > Success:  https://example.com
+> 
 > Success:  http://example.com
+> 
 > Error: ftp://example.com
+> 
 > Success:  https://example.net
+> 
 > Success:  http://example.net
+> 
 > Error: ftp://example.net
 
 ### Input File
