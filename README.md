@@ -29,5 +29,5 @@ URLCheck accepts a single URL or multiple URLs (line-delimited in a text file). 
 
 ## Extra Probes
 Do not include protocols directly into the URL.
-> google.com ✅
-> https://google.com ❌
+* google.com ✅
+* https://google.com ❌
